@@ -6,7 +6,7 @@ import os
 import time
 import datetime
 import pytz
-TOKEN = "8041528980:AAEcUj-VokTFHnJ1hzvcZeLpgkmn0A2kDos"
+TOKEN = ""
 bot = telebot.TeleBot(TOKEN)
 
 
@@ -418,5 +418,6 @@ def register(call):
 
 print("🤖 Bot is running...")
 bot.infinity_polling()
+
 
 
